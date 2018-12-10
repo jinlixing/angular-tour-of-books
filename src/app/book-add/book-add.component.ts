@@ -30,7 +30,7 @@ export class BookAddComponent implements OnInit {
       return;
     }
 
-    return this.bookService.addBook(this.book).subscribe(() => this.location.back());
+    this.bookService.addBook(this.book).subscribe(() => this.location.back());
   }
 
 }
