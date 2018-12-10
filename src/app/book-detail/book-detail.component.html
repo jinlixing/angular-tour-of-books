@@ -1,0 +1,10 @@
+<div>
+  <img src="{{book.thumb}}" alt="">
+  <div>
+    ￥{{book.price}} : {{book.id}}
+  </div>
+  <div><input [(ngModel)]="book.name" /></div>
+</div>
+<button (click)="save()">save</button>
+<button (click)="back()">go back</button>
+

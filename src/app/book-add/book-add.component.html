@@ -1,0 +1,7 @@
+<h2>添加新书籍</h2>
+<div>
+  <label>名称：<input [(ngModel)]="book.name" placeholder="书籍名称"></label>
+  <label>价格：<input [(ngModel)]="book.price" placeholder="书籍价格"></label>
+  <label>主图：<input [(ngModel)]="book.thumb" placeholder="书籍主图"></label>
+</div>
+<button (click)="save()">保存书籍</button>

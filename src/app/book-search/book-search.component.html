@@ -1,0 +1,8 @@
+<div>
+  <label>搜索书籍：<input #bookName (keyup)="search(bookName.value)" placeholder="输入关键词" /></label>
+</div>
+<ul>
+  <li *ngFor="let book of searchBooks$ | async">
+    {{book.price}} : {{book.id}} : {{book.name}}
+  </li>
+</ul>

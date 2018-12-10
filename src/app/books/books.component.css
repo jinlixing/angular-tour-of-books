@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+}
+ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+li {
+  float: left;
+  padding: 2vw;
+  width: 30vw;
+}
+li a {
+  display: block;
+  text-decoration: none;
+}
+li img {
+  width: 26vw;
+  height: 26vw;
+}
+li .name {
+  height: 48px;
+  line-height: 16px;
+  font-size: 12px;
+}
+h2 a {
+  font-size: 14px;
+  margin-left: 10px;
+}
