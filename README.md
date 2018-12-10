@@ -1,7 +1,7 @@
 # angular-tour-of-books
 这是一个参照 Angular 官方教程所写的小例子，实现了官方教程的所有功能
-代码地址：https://github.com/jinlixing/angular-tour-of-books
-下载预览：https://github.com/jinlixing/angular-tour-of-books/dist
+#### 代码地址：https://github.com/jinlixing/angular-tour-of-books
+#### 下载预览：https://github.com/jinlixing/angular-tour-of-books/tree/master/dist/angular-tour-of-books
 
 # ng build
 最后编译后的源码在 dist 目录下
